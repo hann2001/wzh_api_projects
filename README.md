@@ -1,2 +1,18 @@
-# wzh_api_projects
-I am learning Python, and this library contains the code files I used to learn how to use the request library to call the model.
+##项目描述
+
+这是一个图像处理项目，实现图片的放缩、绘制边界框功能，并调用阿里云百炼的千问VL模型来检测道路上的杂物。
+
+##环境要求
+
+Python 3.6+、Python库：opencv-python、Pillow、requests
+
+##使用方法
+
+1. 将待处理的图片放入input_images文件夹中
+2. 执行代码文件
+3. 查看结果
+
+##错误处理
+
+最后返回了正确的格式但是没检测到道路杂物
+
